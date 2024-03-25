@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Narnoor:wght@400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+   
+    color: #616161;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-family: Inter, sans-serif;
+    background-color: black;
+    color: white;
+}
+/*common styling throughout*/
+
+a{
+    color: white;
+}
+.description{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: white;
+}
+.Heading{
+    color: #616161;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+/*designing*/
+
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto ;
+    display: grid;
+    padding: 5rem;
+    background: #070707;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+data {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .ability,
+  .education {
+    margin-bottom: 20px; 
+  }
+@media only screen and (max-width:768px){
+    .container{
+        width: 100%;
+        grid-template-columns: 1;
+        padding: 3rem;
+        gap: 7rem;
+    }
+}
+
+/*profile styling*/
+.profile {
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+}
+
+.profile_container{
+    display:flex;
+    gap:2rem;
+}
+.profile_profileImg{
+    max-width: 350px;
+}
+.first_name{
+    color: #616161;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform:capitalize;
+    margin-bottom: -0.8rem;
+}
+.last_name{
+    color: #616161;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom:-0.5rem;
+}
+.profile_title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+/*CSS FOR SKILLS SECTION*/
+.skills{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+.education{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+.experience{
+    margin-top: 0.8rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+.Interests{
+    margin-top: 0.8rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
