@@ -6,6 +6,7 @@ const mongoose = require("mongoose");
 dotenv.config();
 const userDataRoute = require("./routes/userDataRoute");
 const postDataRoute = require("./routes/postDataRoute");
+const productDataRoute = require("./routes/productDataRoute");
 const auth = require("./middlewares/auth");
 
 app.use(express.json());
@@ -24,3 +25,4 @@ mongoose
 
 app.use("/api/users", userDataRoute);
 app.use("/api/posts", auth, postDataRoute);
+app.use("/api/products", auth, productDataRoute);

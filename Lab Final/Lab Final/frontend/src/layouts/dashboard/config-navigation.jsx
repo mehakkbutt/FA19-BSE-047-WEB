@@ -11,7 +11,7 @@ const navConfig = [
     icon: icon('ic_analytics'),
   },
   {
-    title: 'All Post',
+    title: 'All Posts',
     path: '/posts',
     icon: icon('ic_user'),
   },
@@ -19,6 +19,21 @@ const navConfig = [
     title: 'Create Post',
     path: '/create',
     icon: icon('ic_cart'),
+  },
+  {
+    title: 'All Products',
+    path: '/products',
+    icon: icon('ic_user'),
+  },
+  {
+    title: 'Create Product',
+    path: '/create-product',
+    icon: icon('ic_cart'),
+  },
+  {
+    title: 'Visited Products',
+    path: '/visited-product',
+    icon: icon('ic_user'),
   },
 ];
 
